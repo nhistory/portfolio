@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sehwan Portfolio</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <navbar id="navbar">
+        <div id="brand">
+          <a href="index.html">{Portfolio}</a>
+        </div>
+
+        <div class="hamburger">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+        </div>
+
+        <ul id="nav-links">
+          <li class="nav-link"><a href="#section-about">Skills</a></li>
+          <li class="nav-link"><a href="#section-a" target="">Projects</a></li>
+          <li class="nav-link">
+            <a href="#section-b" target="">Experiences</a>
+          </li>
+          <!-- <li class="nav-link"><a href="#section-c" target="">Resume</a></li> -->
+          <li class="nav-link"><a href="#section-d" target="">Contact</a></li>
+        </ul>
+      </navbar>
+
+      <div class="header-content">
+        <img
+          src="./images/profile-modified.png"
+          alt="Header Image"
+          id="header-img"
+        />
+
+        <div class="header-text">
+          <h1>I am Fullstack Developer.</h1>
+          <a href="#section-a" target="">EXPLORE</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="section-about">
+      <h2 class="section-header">Skill Sets</h2>
+
+      <ul class="stack-list">
+        <li class="stack-category" id="stack-category1">
+          <div class="stack-image"><img src="./images/FE.png" alt="" /></div>
+          <div class="stack-text">
+            <a href="#">FrontEnd</a>
+          </div>
+        </li>
+
+        <li class="stack-category" id="stack-category2">
+          <div class="stack-image"><img src="./images/BE.png" alt="" /></div>
+          <div class="stack-text">
+            <a href="#">BackEnd</a>
+          </div>
+        </li>
+
+        <li class="stack-category" id="stack-category3">
+          <div class="stack-image"><img src="./images/Other.png" alt="" /></div>
+          <div class="stack-text">
+            <a href="#">Others</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="section-a">
+      <h2 class="section-header">Projects</h2>
+
+      <ul class="project-list">
+        <li class="project-category" id="project-category1">
+          <div class="project-category-image">
+            <img
+              src="./images/transit_tracker.gif"
+              alt="Real-time Transit Tracker"
+            />
+            <div class="image-text">
+              <a
+                href="https://github.com/nhistory/transit_tracker"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-text">
+            <a>Real-time Transit Tracker</a>
+            <p>
+              A real-time transit tracker to display the position of transit by
+              auto-refresh.
+            </p>
+          </div>
+        </li>
+
+        <li class="project-category" id="project-category2">
+          <div class="project-category-image">
+            <img src="./images/MERN.gif" alt="Project manage app" />
+            <div class="image-text">
+              <a
+                href="https://github.com/nhistory/project-manage-app"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-text">
+            <a>Project manage app</a>
+            <p>
+              A MERN stack application to manage clients and project data that
+              can make CRUD functionality with simple web page.
+            </p>
+          </div>
+        </li>
+
+        <li class="project-category" id="project-category3">
+          <div class="project-category-image">
+            <img src="./images/angular.png" alt="AngularTaskApp" />
+            <div class="image-text">
+              <a
+                href="https://github.com/nhistory/angular-task-app"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-text">
+            <a>AngularTaskApp</a>
+            <p>
+              An task application made by Angular framework with angular CLI
+              13.3.6.
+            </p>
+          </div>
+        </li>
+
+        <li class="project-category" id="project-category4">
+          <div class="project-category-image">
+            <img src="./images/django.png" alt="AngularTaskApp" />
+            <div class="image-text">
+              <a
+                href="https://github.com/nhistory/community_app"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-text">
+            <a>Django project</a>
+            <p>A community feature application made by django framework.</p>
+          </div>
+        </li>
+
+        <li class="project-category" id="project-category6">
+          <div class="project-category-image">
+            <img src="./images/spring-boot.gif" alt="springboot-blog" />
+            <div class="image-text">
+              <a
+                href="https://github.com/nhistory/springboot-blog"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-text">
+            <a>springboot-blog</a>
+            <p>
+              A simple blog application built with spring boot, spring jpa, h2,
+              and security.
+            </p>
+          </div>
+        </li>
+
+        <li class="project-category" id="project-category6">
+          <div class="project-category-image">
+            <img
+              src="./images/fastapi-postgresql.png"
+              alt="fastapi-postgresql"
+            />
+            <div class="image-text">
+              <a
+                href="https://github.com/nhistory/fastapi-postgresql"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-text">
+            <a>fastapi-postgresql</a>
+            <p>
+              An Restful API built with FastAPI and Postgresql connected by
+              sqlalchemy.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="section-b">
+      <h2 class="section-header">Experiences</h2>
+
+      <ul id="experiences-list">
+        <li class="experiences" id="testimonial1">
+          <img
+            src="./images/itjobfair.png"
+            alt="itjobfair"
+            class="experiences-img"
+          />
+
+          <div class="experiences-text">
+            <p class="e-name">Technical team lead</p>
+            <p class="e-details">
+              IT Job Fair 2023 (NSCC) <br />
+              2022.10 - present | Halifax
+            </p>
+            <ul>
+              <li>
+                Maintained and updated IT Job Fair Website by using Laravel8
+                framework.
+              </li>
+              <li>Tested database CRUD features and registration process.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="experiences" id="testimonial2">
+          <img
+            src="./images/blackbird.png"
+            alt="Blackbird project"
+            class="experiences-img"
+          />
+
+          <div class="experiences-text">
+            <p class="e-name">Junior Developer Internship</p>
+            <p class="e-details">
+              Blackbird project <br />
+              (NSCC IT Campus) <br />
+              2022.4 - 2022.5 | Halifax
+            </p>
+            <ul>
+              <li>
+                Develop application for student advisement records system.
+              </li>
+              <li>Made a wireframe by using Figma.</li>
+              <li>Developed with NodeJS for parsing data from excel.</li>
+              <li>Executed unit test with Jest library</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="experiences" id="testimonial3">
+          <img
+            src="./images/CompCar.png"
+            alt="Picture of Customer"
+            class="experiences-img"
+          />
+
+          <div class="experiences-text">
+            <p class="e-name">Lead developer</p>
+            <p class="e-details">
+              Pacemaker Intern <br />
+              2022.11 - present | Toronto
+            </p>
+            <ul>
+              <li>Built FARM stack web application for used car search.</li>
+              <li>
+                Created backend api by using FastAPI with leading 3 team
+                members.
+              </li>
+              <li>Used Docker image to establish development environmen.</li>
+              <li>
+                Followed asile development process with trello and github.
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="section-d">
+      <h2>Contact Me</h2>
+      <ul class="contact-list">
+        <li>
+          <a href="https://github.com/nhistory" target="_blank"
+            ><img
+              height="52"
+              width="52"
+              src="https://cdn.simpleicons.org/github/1b2232"
+          /></a>
+        </li>
+        <li>
+          <a href="mailto:sehwan.lee.dev@gmail.com" target="_blank"
+            ><img
+              height="52"
+              width="52"
+              src="https://cdn.simpleicons.org/gmail/1b2232"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sehwann/" target="_blank"
+            ><img
+              height="52"
+              width="52"
+              src="https://cdn.simpleicons.org/linkedin/1b2232"
+          /></a>
+        </li>
+      </ul>
+
+      <!-- <form action="https://www.freecodecamp.com/email-submit">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Your email address"
+          required
+        /><br /><br />
+        <input type="submit" value="Subscribe" />
+      </form> -->
+    </section>
+
+    <footer>
+      <p>Copyright &copy; Sehwan Lee 2022</p>
+      <p></p>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const navBar = document.querySelector('#navbar');
+      const navLinks = document.querySelector('#nav-links');
+      const navlink = document.querySelector('#nav-links li');
+
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        navBar.classList.toggle('open');
+        navLinks.classList.toggle('open');
+        navLink.classList.toggle('open');
+      });
+
+      console.log(navLinks);
+    </script>
+  </body>
+</html>
