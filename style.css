@@ -18,9 +18,9 @@ video {
   background-color: #ffffff;
   /* background-image: linear-gradient(0deg, #1b2232 0%, #4f5d6a 5%, #ffffff 15%); */
   padding-bottom: 5em;
-  transition: all 0.2s;
+  /* transition: all 0.2s;
   animation-name: left-right;
-  animation-duration: 2s;
+  animation-duration: 2s; */
 }
 
 @keyframes left-right {
@@ -82,9 +82,9 @@ a {
 .nav-link {
   transition: all 0.3s ease;
   margin: 4px 0;
-  transition: all 0.2s;
+  /* transition: all 0.2s;
   animation-name: top-bottom;
-  animation-duration: 1s;
+  animation-duration: 1s; */
 }
 
 @keyframes top-bottom {
@@ -487,7 +487,17 @@ footer {
   }
 
   .experiences-text ul {
-    padding: 0 3em 0 5em;
+    /* padding: 0 3em 0 5em; */
+  }
+
+  #section-d .contact-list {
+    text-align: center;
+    grid-gap: 1em;
+  }
+
+  .contact-list img {
+    width: 70%;
+    min-width: 40px;
   }
 }
 
